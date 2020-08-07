@@ -1,3 +1,55 @@
+### Tecnologias utilizadas no desafio
+
+
+### Backend
+- Java
+- Api RESTful com Spring MVC
+- Spring Boot
+- Spring Security + autenticação JWT
+- Spring Data JPA + PostgreSQL
+
+
+### Como rodar o backend?
+- 1º: ir até o arquivo 'application.properties' e configurar o banco de dados para rodar local (url, username, password)
+- 2º: não é necessário criar as tabelas, apenas criar a base de dados e colocar a senha usada localmente. O banco é criado automaticamente.
+- 3º: executar o arquivo 'BackendApplication'.
+
+### IMPORTANTE:
+Após configurar o banco local e executar o projeto, um usuário será criado automaticamente:
+LOGIN: admin
+SENHA: teste001
+
+
+### Frontend
+- React Hooks + Bootstrap 4
+
+
+### Como rodar o frontend?
+- npm start
+
+
+### Funcionalidades implementadas:
+- ADMINSTRADOR: cadastrar, visualizar, atualização e deletar usuário.
+- USUARIO-TRIADOR: cadastrar, visualizar, editar e excluir processos. No cadastro é permitindo atribuir 'N' usuários com permissão de FINALIZADOR.
+- USUARIO-FINALIZADOR: visualizar e incluir paracer em processos atributos ao seu usuário.
+- Autenticação de usuários com sessão STATELESS, tramitação de token JWT e Logout.
+- Controle de acesso aos endpoint do backend e rotas do front.
+- Validação de formulário no frontend com feedback ao usuário em tempo real.
+- Validação no backend com javax.validation e nas colunas do banco também.
+- Auditorio com auxílio do JpaAuditing.
+
+
+### O que faltou:
+
+As funcionalidades do desafio foram cumpridas, porém, por falta de tempo, não foi possivel cumprir os diferenciais:
+- Adaptar a página para dispositivos móveis.
+- Liberação da aplicação utilizando Docker.
+- Testes unitarios e automatizados.
+
+
+_______________________________________________________________________________________________________________________________
+
+
 # Desafio implementador fullstack
 
 Seja parte da jornada de transformação digital no Brasil.
