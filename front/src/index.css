@@ -1,0 +1,7 @@
+.table-active, .table-active>td, .table-active>th {
+    background-color: rgba(0,0,0,.025) !important;
+}
+
+.pointer {
+    cursor: pointer;
+}
