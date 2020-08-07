@@ -36,7 +36,7 @@ SENHA: teste001
 - Controle de acesso aos endpoint do backend e rotas do front.
 - Validação de formulário no frontend com feedback ao usuário em tempo real.
 - Validação no backend com javax.validation e nas colunas do banco também.
-- Auditorio com auxílio do JpaAuditing.
+- Auditoria com auxílio do JpaAuditing.
 
 
 ### O que faltou:
