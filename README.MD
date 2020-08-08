@@ -1,3 +1,6 @@
+### Preview:
+https://github.com/JoedesonJr/softplan-desafio-fullstack/tree/master/preview
+
 ### Tecnologias utilizadas no desafio
 
 
